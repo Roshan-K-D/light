@@ -217,8 +217,8 @@ body{
     background-image: url(project-4th_img/@awildflowerinlondon\ on\ Instagram.jpg);
     background-size: cover;
     position: absolute;
-    top: 120px;
-    left: 45%;
+    top: 120px; 
+    left: 50%;
 }
 
 /* quote in hero section */
