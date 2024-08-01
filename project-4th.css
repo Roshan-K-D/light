@@ -7,7 +7,7 @@
     background-color: greenyellow;
     color: black;
 }
-
+ 
 .green{
     background-color: greenyellow;
     color: black;
@@ -227,6 +227,8 @@ body{
 .quote{
     border-left: 5px  rgb(79, 79, 224) solid;
     padding-left: 5px;
+    /* animation: quote_ani .5s forwards ;
+    animation-timeline: view(); */
 }
 
 .quote:nth-of-type(1){
@@ -240,6 +242,16 @@ body{
     top: 200px;
     right: 120px;
 }
+
+/* @keyframes quote_ani {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }60%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+} */
 
 /* page1 */
 
@@ -523,6 +535,8 @@ body{
 
 .one{
     width: 87%;
+    position: absolute;
+    top: 30px;
 }
 
 .two{ 
@@ -550,6 +564,7 @@ body{
     left: 95px;
     padding: 20px 0px 0px 20px;
 }
+
 
 /* tool */
 
