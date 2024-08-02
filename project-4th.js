@@ -38,6 +38,8 @@ tl.from(".nev-bar .signup",{
 
 // hero
 
+
+
 tl.from(".hero .hero-img",{
     opacity:0,
     x:50,
@@ -50,12 +52,25 @@ tl.from(".hero h1",{
     duraction:.1,
 })
 
-tl.from(".hero p",{
+tl.from(".hero .hero-intro",{
     opacity:0,
     x:50,
     duraction:.1,
 })
 
+gsap.from(".quote",{
+    opacity:0,
+    y:-10,
+    duraction:.5,
+    scrollTrigger:{
+        trigger:".quote",
+        scoller:"body",
+        // markers:true,
+        start:"top 20%",
+        end:"top 20%",
+        scrub:1,
+    }
+})
 
 tl.from(".hero button",{
     opacity:0,
@@ -124,7 +139,7 @@ ti.from(".left-side-feacher .side-feachers",{
     scrollTrigger:{
         trigger:".side-feachers",
         scoller:"body",
-        markers:true,
+        // markers:true,
         start:"top 60%",
         end:"top 40%",
         scrub:1, 
@@ -141,7 +156,7 @@ ti.from(".right-side-feacher",{
     scrollTrigger:{
         trigger:".right-side-feacher",
         scoller:"body",
-        markers:true,
+        // markers:true,
         start:"top 60%",
         end:"top 50%",
         scrub:1, 

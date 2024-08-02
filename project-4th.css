@@ -146,11 +146,23 @@ body{
 .login{
     cursor: pointer;
     position: relative;
-    right: 100px;
+    right: 120px;
 }
 
 
 /* page starts */
+
+.sidebar-tracker{
+    position: fixed;
+}
+
+.sidebar-tracker a{
+    font-size: 1.4em;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 /* hero-section */
 
 .hero{
@@ -244,10 +256,10 @@ body{
 }
 
 /* @keyframes quote_ani {
-    0%{
+    60%{
         opacity: 0;
         transform: translateY(-50px);
-    }60%{
+    }100%{
         opacity: 1;
         transform: translateY(0px);
     }
@@ -357,7 +369,7 @@ body{
 }
 /* online */
 
-.online-feacher{
+#online-feacher{
     width: 80vw;
     height: 100vh;
     position: relative;
@@ -365,12 +377,12 @@ body{
     display: flex;
     justify-content: center;
 }
-.online-feacher h2{
+#online-feacher h2{
     position: absolute;
     font-size: 4em;
 }
 
-.online-feacher p{
+#online-feacher p{
     position: absolute;
     font-size: 1.2em;
     /* background-color:brown; */
@@ -386,15 +398,22 @@ body{
 
 .role_card{
     cursor: pointer;
+    position: relative;
 }
 
+.role_card:hover{
+    box-shadow: 10px 10px black;
+    transition: all .3s;
+    background-color: greenyellow;
+    color: #000000;
+}
 
-.role-page{
+#role-page{
     width: 100vw;
     height: 100vh;
     position: relative;
 }
-.role-page h2{
+#role-page h2{
     font-size: 3em;
     text-align: center;
     padding-top: 100px;
@@ -407,10 +426,19 @@ body{
     left: 10%;
     top: 220px;
 }
+.vid{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 40%;
+    z-index: -1;
+    position: absolute;
+    bottom: 10px;
+    left:18px;
+}
 .writer{
     width: 350px;
     height: 400px;
-    border: 5px rgb(56, 56, 189) solid;
+    border: 5px black solid;
     padding: 30px;
 }
 .writer h3{
@@ -423,7 +451,7 @@ body{
 .reviewer{
     width: 350px;
     height: 400px;
-    border: 5px rgb(56, 56, 189) solid;
+    border: 5px black solid;
     padding: 30px;
     margin-left: 40px;
 }
@@ -437,7 +465,7 @@ body{
 .reader{
     width: 350px;
     height: 400px;
-    border: 5px rgb(56, 56, 189) solid;
+    border: 5px black solid;
     padding: 30px;
     margin-left: 40px;
 }
@@ -466,6 +494,7 @@ body{
     border-radius:10px;
     position: relative;
     top: 5px;
+    z-index: 3;
 }
 .info-on-socialbook:hover span{
     display: block;
@@ -483,7 +512,7 @@ body{
 
 /* for showing feachers */
 
-.feacher{
+#feacher{
     /* background-color: chartreuse; */
     position: relative;
     top: 200px;
@@ -498,7 +527,7 @@ body{
     display: flex;
     /* background-color: aquamarine; */
 }
-.feacher h2{
+#feacher h2{
     font-size: 3em;
     text-align: center;
 }
