@@ -384,6 +384,10 @@ body{
 
 /* roles */
 
+.role_card{
+    cursor: pointer;
+}
+
 
 .role-page{
     width: 100vw;
@@ -534,28 +538,30 @@ body{
 
 .side-feachers:hover{
     box-shadow: 10px 10px black;
+    transition: all .3s;
+    background-color: greenyellow;
+    color: #000000;
 }
 
 .one{
-    width: 87%;
-    position: absolute;
-    top: 30px;
+    position: relative;
+    bottom: 50px;  
 }
 
 .two{ 
     /* background-color: chartreuse;  */
     position: relative;
-    top: 137.5px;
+    bottom: 30px;
 } 
 
 .three{ 
     /* background-color: chartreuse; */
     position: relative;
-    top: 160px;
+    bottom: 10px;
 } 
 .four{
     position: relative;
-    top: 180px;
+    top:10px
 }
 
 .right-side-feacher{

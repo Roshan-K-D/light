@@ -118,14 +118,14 @@ ti.from(".roles div",{
 
 ti.from(".left-side-feacher .side-feachers",{
     opacity:0,
-    y:-50,
+    y:-10,
     duraction:.2,
     stagger:.3,
     scrollTrigger:{
         trigger:".side-feachers",
         scoller:"body",
         markers:true,
-        start:"top 50%",
+        start:"top 60%",
         end:"top 40%",
         scrub:1, 
     }
@@ -142,8 +142,8 @@ ti.from(".right-side-feacher",{
         trigger:".right-side-feacher",
         scoller:"body",
         markers:true,
-        start:"top 50%",
-        end:"top 40%",
+        start:"top 60%",
+        end:"top 50%",
         scrub:1, 
     }
 })
@@ -156,9 +156,9 @@ let two = document.querySelector(".two");
 let three = document.querySelector(".three");
 let four = document.querySelector(".four")
 
-let feacher_timeline= [one , two ,three ,four];
+// let feacher_timeline= [one , two ,three ,four];
 
-for(let i= 1 ; i<=4 ; i++){
-   delay=2;
-   feacher_timeline[i]
-}
+// for(let i= 1 ; i<=4 ; i++){
+//    delay=2;
+//    feacher_timeline[i]
+// }
