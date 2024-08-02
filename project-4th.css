@@ -558,11 +558,15 @@ body{
 .right-side-feacher{
     /* background-color: rgb(15, 94, 68); */
     height: 95%;
-    width: 60%;
+    width: 50%;
     /* z-index: 2; */
     position: relative;
-    left: 95px;
+    left: 120px;
     padding: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px black solid; 
 }
 
 

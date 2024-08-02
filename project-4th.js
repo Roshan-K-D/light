@@ -112,3 +112,38 @@ ti.from(".roles div",{
     }
 })
 
+
+// feachers 
+
+
+ti.from(".left-side-feacher .side-feachers",{
+    opacity:0,
+    y:-50,
+    duraction:.2,
+    stagger:.3,
+    scrollTrigger:{
+        trigger:".side-feachers",
+        scoller:"body",
+        markers:true,
+        start:"top 50%",
+        end:"top 40%",
+        scrub:1, 
+    }
+})
+
+
+ti.from(".right-side-feacher",{
+    opacity:0,
+    x:100,
+    duraction:.2,
+    stagger:.3,
+    delay:.5,
+    scrollTrigger:{
+        trigger:".right-side-feacher",
+        scoller:"body",
+        markers:true,
+        start:"top 50%",
+        end:"top 40%",
+        scrub:1, 
+    }
+})
