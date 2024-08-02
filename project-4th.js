@@ -4,7 +4,7 @@
 // nev-bar
 let tl =gsap.timeline();
 
-tl.from(".nev-bar .logo",{
+tl.from(".nev-bar .logo",{ 
     opacity:0,
     y:-100,
     duraction:.115,
