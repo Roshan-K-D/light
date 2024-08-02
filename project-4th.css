@@ -532,6 +532,9 @@ body{
     margin-top: 10px;
 }  
 
+.side-feachers:hover{
+    box-shadow: 10px 10px black;
+}
 
 .one{
     width: 87%;

@@ -147,3 +147,18 @@ ti.from(".right-side-feacher",{
         scrub:1, 
     }
 })
+
+
+// page 1 effect 
+
+let one = document.querySelector(".one");
+let two = document.querySelector(".two");
+let three = document.querySelector(".three");
+let four = document.querySelector(".four")
+
+let feacher_timeline= [one , two ,three ,four];
+
+for(let i= 1 ; i<=4 ; i++){
+   delay=2;
+   feacher_timeline[i]
+}
