@@ -3,7 +3,7 @@
 
 // nev-bar
 let tl =gsap.timeline();
-
+ 
 tl.from(".nev-bar .logo",{ 
     opacity:0,
     y:-100,
@@ -169,11 +169,19 @@ ti.from(".right-side-feacher",{
 let one = document.querySelector(".one");
 let two = document.querySelector(".two");
 let three = document.querySelector(".three");
-let four = document.querySelector(".four")
+let four = document.querySelector(".four");
 
-// let feacher_timeline= [one , two ,three ,four];
+let feacher_timeline = [one, two, three, four];
 
-// for(let i= 1 ; i<=4 ; i++){
-//    delay=2;
-//    feacher_timeline[i]
-// }
+let index = 0;
+
+function animate() {
+  feacher_timeline[index].classList.add("auto_change");
+  setTimeout(() => {
+    feacher_timeline[index].classList.remove("auto_change");
+    index = (index + 1) % feacher_timeline.length;
+    animate();
+  }, 2000);
+}
+
+animate();
