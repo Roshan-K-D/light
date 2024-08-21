@@ -52,25 +52,26 @@ tl.from(".hero h1",{
     duraction:.1,
 })
 
-tl.from(".hero .hero-intro",{
+tl.from(".hero p",{
     opacity:0,
     x:50,
     duraction:.1,
 })
 
-gsap.from(".quote",{
-    opacity:0,
-    y:-10,
-    duraction:.5,
-    scrollTrigger:{
-        trigger:".quote",
-        scoller:"body",
-        // markers:true,
-        start:"top 20%",
-        end:"top 20%",
-        scrub:1,
-    }
-})
+
+// gsap.from(".quote",{
+//     opacity:0,
+//     y:-10,
+//     duraction:.5,
+//     scrollTrigger:{
+//         trigger:".quote",
+//         scoller:"body",
+//         // markers:true,
+//         start:"top 20%",
+//         end:"top 20%",
+//         scrub:1,
+//     }
+// })
 
 tl.from(".hero button",{
     opacity:0,
@@ -185,3 +186,4 @@ function animate() {
 }
 
 animate();
+

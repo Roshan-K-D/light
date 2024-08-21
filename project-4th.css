@@ -172,6 +172,8 @@ body{
     text-decoration: none;
 }
 
+
+
 /* hero-section */
 
 .hero{
@@ -625,9 +627,40 @@ body{
     border: 2px black solid; 
 }
 
+/* page 2 */
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: chartreuse;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top:900px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px ;
+    display: flex;
+}
+.expore{
+    width: 25%;
+    height: 100%;
+    font-size: 7em;
+    display: inline-block;
+    word-wrap:normal;
+    position: relative;
+    top: 150px;
+}
+.contener{
+    width: 70%;
+    height: 100%;
+    background-color: #deffc8;
+    position: absolute;
+    right:0;
+    border-top-right-radius:30px ;
+}
 
 /* tool */
 
 .hide{
     display: none;
 }
+
