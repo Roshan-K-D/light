@@ -643,11 +643,14 @@ body{
 .expore{
     width: 25%;
     height: 100%;
-    font-size: 7em;
     display: inline-block;
     word-wrap:normal;
     position: relative;
-    top: 150px;
+}
+.expore h1{
+    font-size: 7em;
+    position: relative;
+    top: 40px;
 }
 .contener{
     width: 70%;

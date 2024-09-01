@@ -163,7 +163,16 @@ ti.from(".right-side-feacher",{
         scrub:1, 
     }
 })
+// page 2
 
+gsap.to(".page2",{
+    
+    scrollTrigger:{
+        trigger:".page2",
+        scroll:"body",
+        pin:true,
+    }
+})
 
 // page 1 effect 
 
